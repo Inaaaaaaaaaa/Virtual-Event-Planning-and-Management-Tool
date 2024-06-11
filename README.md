@@ -1,4 +1,4 @@
-                                                            Virtual Event Planning and Management Tool
+                                                        Virtual Event Planning and Management Tool
  
 ## Features 
 - User Authentication:Log in with existing account which is registered by AUT.
@@ -20,11 +20,11 @@
 5. Open a Pull Request
    
 ## Authors
-Hang Xu
-Ina Youn
-Ling Bing 
-Michael Piao
-Yudong Guan
+- Hang Xu : https://github.com/HangXuTAki
+- Ina Youn : https://github.com/Inaaaaaaaaaa
+- Ling Bing : https://github.com/Liiiingb
+- Michael Piao : https://github.com/michaelpiaoAUT
+- Yudong Guan : https://github.com/yudong00
 
 **License**
 This project is licensed under the MIT License - see the LICENSE.md file for details.
