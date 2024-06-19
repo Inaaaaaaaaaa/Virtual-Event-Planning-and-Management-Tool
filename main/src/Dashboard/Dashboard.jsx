@@ -1,14 +1,23 @@
-import { userState } from 'react'
-import './Dashboard.css'
+import React from 'react';
+import './Dashboard.css';
 
-function Dashboard()
-{
-    return
-    (
-        <div className='grid-container'>
-            <Sidebar />
+const Dashboard = () => {
+    return (
+        <div className="container">
+  
+            <div className="contents">
+                <div className="review-box">
+                    <p>Review Status</p>
+                </div>
+                <div className="events-box">
+                    <p>Upcoming Events</p>
+                </div>
+                <div className="messages-box">
+                    <p>Messages</p>
+                </div>
+            </div>
         </div>
-    )
+    );
 }
 
-export default Dashboard
+export default Dashboard;

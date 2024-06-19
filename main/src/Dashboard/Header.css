@@ -1,0 +1,25 @@
+.Dashboard {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+}
+
+.search-bar {
+    margin-top: -50px;
+}
+
+.search-input {
+    border-radius: 10px;
+    width: 200px; 
+    height: 25px; 
+    margin-right: 70px; 
+}
+
+.search-bar-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 80px;
+}
+
