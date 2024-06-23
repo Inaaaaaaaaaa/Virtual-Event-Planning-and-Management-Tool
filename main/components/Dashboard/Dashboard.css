@@ -1,0 +1,98 @@
+.container 
+{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contents 
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 300px;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 170px; 
+    box-sizing: border-box;
+    margin-left: 660px;  
+    margin-bottom: -450px;
+    position: relative;
+    align-items: start;
+}
+
+/*Containter box for review, events, submissions, and Calender */
+.review-box
+{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: start; 
+    justify-content: center;
+}
+
+/*Formatting each box*/
+.review-box 
+{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    min-height: 350px;
+    min-width: 700px;
+}
+
+.submission-box 
+{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: start; 
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    min-height: 360px; 
+    margin-top: -420px;
+    min-width: 200px;
+}
+
+.Calender-box 
+{
+    align-self: start;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 360px; 
+    margin-top: -420px;
+    min-width: 200px;
+}
+
+.Upcomingevents-box {
+    align-self: start;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: start; 
+    justify-content: center;
+}
+
+/*Alignment for events box*/
+.Upcomingevents-box 
+{
+    grid-column: 3 / 5; 
+    /* Same row as review-box */
+    grid-row: 1; 
+    min-height: 760px; 
+    min-width: 360px;
+    margin-right: 90px;
+}
+
+
+.review-box, .submission-box, .Calender-box, .Upcomingevents-box {
+    background-color: var(--box-bg);
+
+}
