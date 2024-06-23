@@ -9,11 +9,14 @@ const Dashboard = () => {
                 <div className="review-box">
                     <p>Review Status</p>
                 </div>
-                <div className="events-box">
-                    <p>Upcoming Events</p>
+                <div className="submission-box">
+                    <p>Submissions</p>
                 </div>
-                <div className="messages-box">
-                    <p>Messages</p>
+                <div className="Calender-box">
+                    <p>Calender</p>
+                </div>
+                <div className="Upcomingevents-box">
+                    <p>Upcoming Events</p>
                 </div>
             </div>
         </div>
